@@ -18,9 +18,9 @@ export const Button = ({
     buttonStyle,
     buttonTamanio
 }) => {
-    const checkButtonStyle = STYLES.includes(buttonStyle) ? butttonStyle : STYLES [0]
+    const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0]
 
-    const checkButtonTamanio = TAMANIO.includes(buttonTamanio) ? buttonTamanio : TAMANIO [0]
+    const checkButtonTamanio = TAMANIO.includes(buttonTamanio) ? buttonTamanio : TAMANIO[0]
 
     return(
         <button className = {`btn ${checkButtonStyle} ${checkButtonTamanio}`} onClick = {onClick} 
