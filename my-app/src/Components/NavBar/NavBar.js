@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import{ menu } from "./menu"
 import{Button} from "../Button"
 import './NavBar.css'
+import CartWidget from '../Cartwidget/CartWidget'
+import cart from './carrito.svg'
+
 
 
 class NavBar extends Component{
@@ -30,6 +33,7 @@ class NavBar extends Component{
                     })}
                 </ul>
                 <Button>Sign Up</Button>
+                <br></br>
             </nav>
         )
     }
