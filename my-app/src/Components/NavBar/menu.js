@@ -1,7 +1,6 @@
 import CartWidget from "../Cartwidget/CartWidget";
 import cart from './carrito.svg'
 
-
 export const menu = [
     {
         titulo: 'Home',

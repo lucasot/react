@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import{ menu } from "./menu"
 import{Button} from "../Button"
 import './NavBar.css'
-import CartWidget from '../Cartwidget/CartWidget'
+import CartWidget from '../Cartwidget/CartWidget';
 import cart from './carrito.svg'
 
 
