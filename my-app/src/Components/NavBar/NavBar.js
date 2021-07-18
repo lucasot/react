@@ -3,7 +3,7 @@ import{ menu } from "./menu"
 import{Button} from "../Button"
 import './NavBar.css'
 import CartWidget from '../Cartwidget/CartWidget';
-import cart from './carrito.svg'
+import cart from './canasta.svg'
 
 
 

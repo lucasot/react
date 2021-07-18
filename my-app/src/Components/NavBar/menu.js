@@ -1,5 +1,5 @@
 import CartWidget from "../Cartwidget/CartWidget";
-import cart from './carrito.svg'
+import cart from './canasta.svg'
 
 export const menu = [
     {
