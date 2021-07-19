@@ -19,7 +19,7 @@ const handleCount=(cant)=>{
 function ItemListContainer(){
     return(
         <div>
-            <ItemCount stock={6} initial={1} onAdd={handleCount} />
+            <ItemCount stock={99} initial={1} onAdd={handleCount} />
         </div>
     )
 }
