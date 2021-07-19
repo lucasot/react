@@ -1,5 +1,7 @@
 import React from 'react'
 import ItemCount from '../Counter/ItemCount'
+import Item from './Item'
+import ItemList from './ItemList'
 
 /*const ItemListContainer = ({greeting, user}) =>{
     
@@ -20,6 +22,8 @@ function ItemListContainer(){
     return(
         <div>
             <ItemCount stock={99} initial={1} onAdd={handleCount} />
+            <Item/>
+            <ItemList/>
         </div>
     )
 }
